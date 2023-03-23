@@ -4,7 +4,7 @@ import time
 import aiohttp
 import requests
 import aiofiles
-
+import BeautifulSoup
 from main.modules.utils import format_time, get_duration, get_epnum, get_filesize, status_text, tags_generator
 
 from main.modules.anilist import get_anime_name
